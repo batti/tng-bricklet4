@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.15)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
@@ -3982,7 +3982,7 @@
   (gr_text "Port A" (at 92.1 83.5) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Bricklet4\nREV 1.0" (at 180.8 144.5) (layer F.SilkS) (tstamp 5DE12587)
+  (gr_text "Bricklet 4\nREV 1.0" (at 180.8 144.5) (layer F.SilkS) (tstamp 5DE12587)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 189.8 147.5) (end 189.8 62.5) (angle 90) (layer Edge.Cuts) (width 0.1))
