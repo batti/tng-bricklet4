@@ -336,6 +336,11 @@
     (pad 1 smd rect (at 1.425 0 90) (size 0.55 0.78) (layers F.Cu F.Paste F.Mask)
       (net 2 3V3))
     (pad "" np_thru_hole circle (at 0 -2.4 90) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
+    (model LED_SMD/LED_RGB_LP.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module kicad-libraries:LED-LP (layer B.Cu) (tedit 5DD792BB) (tstamp 5DE0F9F6)
